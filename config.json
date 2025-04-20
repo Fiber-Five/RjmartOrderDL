@@ -2,14 +2,14 @@
   "accounts": [
     {
       "owner": "用户1",
-      "username": "18598594216",
-      "password": "xiaowu123456",
+      "username": "***",
+      "password": "**",
       "browser_path": "C:\\Users\\12520\\AppData\\Local\\Microsoft\\Edge Beta\\Application\\msedge.exe"
     },
     {
       "owner": "用户2",
-      "username": "15295739828",
-      "password": "chm19850505",
+      "username": "***",
+      "password": "***",
       "browser_path": "C:\\Users\\12520\\AppData\\Local\\Microsoft\\Edge Beta\\Application\\msedge.exe"
     }
   ],
