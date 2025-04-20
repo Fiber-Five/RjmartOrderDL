@@ -356,7 +356,7 @@ def main():
         
         # 创建一个共享的导出器实例
         exporter = RJMartExporter(
-            browser_path=accounts[0]['browser_path'],
+            browser_path=settings['browser_path'],
             download_path=download_path,
             owner=accounts[0]['owner']
         )
@@ -372,10 +372,6 @@ def main():
                 
                 if process_account(account, settings, exporter):
                     success_count += 1
-                
-                # 根据配置的等待时间暂停
-                if settings.get('wait_time'):
-                    time.sleep(settings['wait_time'])
 
             # 输出处理结果统计
             logger.info(f"处理完成: 成功 {success_count} 个, 失败 {len(accounts) - success_count} 个")
