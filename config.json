@@ -1,0 +1,22 @@
+{
+  "accounts": [
+    {
+      "owner": "用户1",
+      "username": "18598594216",
+      "password": "xiaowu123456",
+      "browser_path": "C:\\Users\\12520\\AppData\\Local\\Microsoft\\Edge Beta\\Application\\msedge.exe"
+    },
+    {
+      "owner": "用户2",
+      "username": "15295739828",
+      "password": "chm19850505",
+      "browser_path": "C:\\Users\\12520\\AppData\\Local\\Microsoft\\Edge Beta\\Application\\msedge.exe"
+    }
+  ],
+  "settings": {
+    "start_date": "2020-01-01",
+    "download_path": "data",
+    "max_threads": 3,
+    "wait_time": 2
+  }
+}
